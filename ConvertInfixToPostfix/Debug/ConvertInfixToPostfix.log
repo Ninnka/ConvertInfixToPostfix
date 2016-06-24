@@ -1,4 +1,4 @@
-﻿生成启动时间为 2016/6/21 17:23:08。
+﻿生成启动时间为 2016/6/23 23:09:29。
      1>项目“E:\project\visual studio 2013\C_C++\ConvertInfixToPostfix\ConvertInfixToPostfix\ConvertInfixToPostfix.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt convertiftpf.cpp
@@ -12,4 +12,4 @@
 
 生成成功。
 
-已用时间 00:00:00.46
+已用时间 00:00:00.73

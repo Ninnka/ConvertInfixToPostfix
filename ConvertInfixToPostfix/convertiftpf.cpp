@@ -23,11 +23,14 @@ void main() {
 	Digit *digit = (Digit *)malloc(sizeof(Digit));;
 	char exp[EXPMAXSIZE];
 
+	//说明
+	cout << "说明：\n转换后的表达式中数字、变量、操作符会用空格隔开\n转换后的正号会以#代替，负号会以@代替\n" << endl;
+
 	//循环输入
 	while (true) {
 
 		//输入中缀表达式
-		printf("输入正规中缀表达式（支持正负号前缀及C标准的变量）:\n");
+		printf("输入正规中缀表达式，支持正负号前缀及C标准的变量：\n");
 		cin >> exp;
 
 		//初始化变量
@@ -40,7 +43,7 @@ void main() {
 		convert(exp, op, digit);
 
 		//询问是否继续
-		cout << "是否继续" << endl;
+		cout << "是否继续（‘y’或‘Y’继续，其他退出）" << endl;
 		cin >> check;
 		if (check != 'y' && check != 'Y') {
 			break;
